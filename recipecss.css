@@ -1,12 +1,60 @@
 
 body {
-background: linear-gradient(#3BB892, #13D69C);
+	background: linear-gradient(#3BB892, #13D69C);
 }
 
 h1 {
-margin: 0;
-color: white;
-font-family: 'Dancing Script', cursive;
-font-size: 7em;
-text-align: center;
+	margin: 0;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 7em;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	text-align: center;
+
+	margin: 0;
+}
+
+div.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+div.Recipename {
+	background: blue;
+	height: 20vh;
+	width: 80vw;
+	margin: 2%;
+}
+
+div.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+div.shoppinglist {
+	background: grey;
+	height: 70vh;
+	width: 30vw;
+	margin: 2%;
+}
+
+div.equipment {
+	background: grey;
+	height: 20vh;
+	width: 55vw;
+	margin: 2%;
+}
+
+div.flow-chart {
+	background: grey; 
+	height: 55vh;
+	width: 55vw;
+	margin: 2%;
 }
