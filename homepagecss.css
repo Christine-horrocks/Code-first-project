@@ -1,31 +1,45 @@
-
-body{
-	background: image ("http://imgur.com/a/iZ80g");
-}
-
-div.leftsection{
+div.uppersection{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
-	width: 70vw;
+	justify-content: space-around;
+	background: linear-gradient(#3BB892, #13D69C);
+	text-align:center;
+	height: 40vh;
+	width: 100vw;
+}
+div.leftsection{
+	display: flex;
+	align: left;
+	flex-direction: column;
+	height: 80vh;
+	width: 100vw;
 }
 h1 {
 	margin: 0;
 	color: white;
 	font-family: 'Dancing Script', cursive;
 	font-size: 7em;
+	text-align:center;
+
 }
 h2{
 	margin: 0;
 	color: white;
-	font-family: 'Arial', cursive;
+	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
+	text-align:center;
+}
+header{
+	margin: 0;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	text-align:center;
 }
 p {
 	color: white;
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
-
 	margin: 0;
 }
 div.table
@@ -49,6 +63,10 @@ div.rightsection{
 	display: flex;
 	align: right;
 	flex-direction: column;
-	height: 100vh;
-	width: 30vw;
+	height: 80vh;
+	width: 100vw;
 }
+body {
+    margin: 0;
+    	background: grey;
+    }
