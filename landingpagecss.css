@@ -67,7 +67,12 @@ div.lowersection {
 
 }
 
-.MyButton {
+a:link    {color:#13D69C; background-color:transparent; text-decoration:none}
+a:visited {color:#3BB892; background-color:transparent; text-decoration:none}
+a:hover   {color:green; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+./*MyButton {
 	input.MyButton {
 width: 300px;
 padding: 20px;
@@ -90,7 +95,7 @@ border: 1px solid #fff;
 -webkit-box-shadow:: 5px 5px 4px #adadad;
 box-shadow:: 5px 5px 4px #adadad;
 } 
-}
+}*/
 
 
 input {
