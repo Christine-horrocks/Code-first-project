@@ -1,4 +1,4 @@
-            
+
 div.uppersection{
 	display: flex;
 	flex-direction: column;
@@ -35,15 +35,15 @@ div.images{
 
 div.img_holder
     {
-      width: auto;
-      height: auto;
+      width: 200px;
+      height: 200px;
       max-width: 200px;
       max-height: 200px;
 	  border-style: solid;
 	  border-width: 10px;
 	  border-color: white;
 	  border-radius: 50%;
-	margin: 5px;
+	  margin: 5px;
 
     }
 
@@ -72,30 +72,6 @@ a:visited {color:#3BB892; background-color:transparent; text-decoration:none}
 a:hover   {color:green; background-color:transparent; text-decoration:underline}
 a:active  {color:yellow; background-color:transparent; text-decoration:underline}
 
-./*MyButton {
-	input.MyButton {
-width: 300px;
-padding: 20px;
-cursor: pointer;
-font-weight: bold;
-font-size: 150%;
-background: #3366cc;
-color: #fff;
-border: 1px solid #3366cc;
-border-radius: 10px;
--moz-box-shadow:: 6px 6px 5px #999;
--webkit-box-shadow:: 6px 6px 5px #999;
-box-shadow:: 6px 6px 5px #999;
-}
-input.MyButton:hover {
-color: #ffff00;
-background: #000;
-border: 1px solid #fff;
--moz-box-shadow:: 5px 5px 4px #adadad;
--webkit-box-shadow:: 5px 5px 4px #adadad;
-box-shadow:: 5px 5px 4px #adadad;
-} 
-}*/
 
 
 input {
